@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/league-csv",
+    "description": "Tyhp type definitions for league/csv 9.28.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "9.28.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/league-csv-impl": "~9.28.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/league-csv-impl"
+        }
+    }
+}
